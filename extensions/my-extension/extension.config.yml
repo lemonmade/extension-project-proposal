@@ -1,0 +1,14 @@
+# This is the main configuration file for a single part of the workspace. The format
+# would vary slightly for the different app/ extension types, but where we have common
+# concepts (e.g., providing a configuration schema), they would have the same shape.
+---
+type: argo
+name: my-extension
+display_name: My Fancy Extension
+extension_points:
+  - Checkout::Feature::Render
+configuration_schema:
+  - key: buttonLabel
+    type: TranslatedString
+    label: "The label for your button"
+    default: "Press me!"

@@ -1,0 +1,8 @@
+# This is the main configuration file for the entire repo. If we needed to write
+# any partner-related information that needs to be in git, it would be written in
+# here. Aside from this, the developer probably doesn’t need to touch much else
+# in this file.
+---
+name: starter-shopify-project
+workspaces:
+  - extensions/*

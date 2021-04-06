@@ -1,0 +1,7 @@
+{
+  "//": "This is the root package.json, where we would install development",
+  "///": "dependencies like ESLint, Jest, etc.",
+  "workspaces": [
+    "extensions/*"
+  ]
+}

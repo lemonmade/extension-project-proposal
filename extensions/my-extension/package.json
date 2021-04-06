@@ -1,0 +1,7 @@
+{
+  "name": "my-extension",
+  "private": true,
+  "dependencies": {
+    "@shopify/argo-checkout": "1.0.0"
+  }
+}
