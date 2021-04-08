@@ -90,11 +90,10 @@ my-extension
 # ✔︎ Created your new extension in `./extensions/my-extension`
 # ✔︎ Installed dependencies
 #
-# You’re all set! Run `cd my-extension` to see your new extension
-# workspace. When you’re ready to get started working on your extension,
-# run `shopify serve` to start a local development environment.
+# Your new `my-extension` extension is ready for you! Next up, run 
+# `shopify serve` to start a local development environment and see your extension
+# in a real checkout.
 
-cd my-extension
 shopify serve
 
 # Serving 1 Argo checkout extension, `my-extension`, on
